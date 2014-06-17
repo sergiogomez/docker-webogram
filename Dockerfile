@@ -7,6 +7,6 @@ RUN cd /webogram && unzip webogram-master.zip && rm -Rf webogram-master.zip
 
 WORKDIR /webogram/webogram-master/app
 
-EXPOSE 80
+EXPOSE 8000
 
 CMD ["node", "../server.js"]
